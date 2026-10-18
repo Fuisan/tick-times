@@ -70,6 +70,7 @@ func _ready() -> void:
 func _on_health_changed(new_health: int) -> void:
 	update_heart_display(new_health)
 
+
 func update_heart_display(new_health: int) -> void:
 	for i in range(hearts_list.size()):
 		hearts_list[i].visible = i < new_health
