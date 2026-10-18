@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/GJ Boss Fight.mp3-32228cfa2298290d8940f353bf7
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0
